@@ -3,7 +3,7 @@ import Link from "next/link";
 function PostList({ post }) {
   return (
     <>
-      <h1>List of Posts</h1>
+      <h1>List of Posts 1</h1>
       {post?.map((post) => {
         return (
           <div key={post.id}>
